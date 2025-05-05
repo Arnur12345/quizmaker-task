@@ -1,0 +1,37 @@
+# Виртуальное окружение
+venv/
+env/
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Каталоги разработки
+.git
+.github
+.gitignore
+.idea/
+.vscode/
+
+# Логи и временные файлы
+*.log
+logs/
+tmp/
+temp/
+
+# Файлы тестов
+tests/
+test_*.py
+
+# Документация
+docs/
+*.md
+
+# Специфичные для Docker файлы
+Dockerfile
+.dockerignore
+docker-compose*.yml 
